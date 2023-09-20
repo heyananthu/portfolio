@@ -5,14 +5,14 @@
 
 header h1 {
     padding-top: 10px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
     font-family: 'Times New Roman', Times, serif;
     color: blue;
 }
 
 header a:hover {
+    color: #e90606;
     transform: scale(1.15);
-    text-decoration: underline;
 
 }
 
@@ -31,8 +31,9 @@ header {
 
 
 .navbar {
-    padding-top: 15px;
-    padding-left: 300px;
+    /* padding-top: 15px;
+    padding-left: 300px; */
+    /* padding-bottom: 17px; */
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     transition: all 0.3s;
@@ -72,6 +73,11 @@ header {
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))
 }
+.first img{
+    padding-right: 70px;
+    width: 650px;
+    height: 700px;
+}
 
 @keyframes flip {
 
@@ -91,19 +97,19 @@ header {
 }
 
 .about {
-    padding: 60px;
+    padding: 10px;
     padding-top: 30px;
+    
     background-color: #fff;
 }
+ .about img {
+    padding-right: 65px;
+    width: 430px;
+    height: 410px;
+} 
 
-.about img {
-    width: 400px;
-    height: 400px;
-}
-
-.about h2 {
-
-    text-align: center;
+.about .row .col-sm-12 h2 {
+    
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -133,13 +139,13 @@ header {
     margin-top: 0.5rem;
 }
 
-.education .box-container {
+/* .education .box-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+} */
 
 .education .box-container .box {
     display: flex;
