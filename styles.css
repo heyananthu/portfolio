@@ -73,11 +73,7 @@ header {
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))
 }
-.first img{
-    padding-right: 70px;
-    width: 650px;
-    height: 700px;
-}
+
 
 @keyframes flip {
 
